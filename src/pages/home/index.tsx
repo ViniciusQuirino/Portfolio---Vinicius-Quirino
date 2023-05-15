@@ -46,6 +46,30 @@ export const Home = (): JSX.Element => {
               />
               <Text color="grey4">Oi, meu nome é {userData.nameUser}</Text>
             </Flex>
+            <Text type="body1" color="grey2">
+              Sou um desenvolvedor apaixonado por transformar ideias em
+              realidade através do poder do código. Ao longo do ano, adquiri um
+              conjunto de habilidades e conhecimentos, permitindo-me criar
+              soluções inovadoras e eficientes.
+            </Text>
+
+            <Text type="body1" color="grey2">
+              Minha jornada no mundo do desenvolvimento começou há um ano, e
+              desde então tenho me dedicado a expandir constantemente meu
+              conhecimento e aprimorar minhas habilidades técnicas. Minha
+              formação em Desenvolvimento Full Stack no curso técnico Kenzie
+              Academy Brasil me proporcionou uma base sólida em conceitos
+              fundamentais.
+            </Text>
+            
+            <Text type="body1" color="grey2">
+              Estou sempre em busca de novos desafios e oportunidades
+              emocionantes de colaborar em projetos interessantes. Se você está
+              procurando um desenvolvedor que traga criatividade, habilidades
+              técnicas sólidas e comprometimento com a excelência, vamos
+              trabalhar juntos para transformar suas ideias em realidade!
+            </Text>
+
             <Text as="h1" type="heading1" color="grey5">
               I{" "}
               <Text as="span" type="heading1" color="brand1">
@@ -57,10 +81,12 @@ export const Home = (): JSX.Element => {
               </Text>{" "}
               projects
             </Text>
+
             <Text type="body1" color="grey2">
               Conheça aqui neste ambiente, criado especialmente para você, todos
               os meus projetos e tecnologias
             </Text>
+
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
                 Ver Projetos
